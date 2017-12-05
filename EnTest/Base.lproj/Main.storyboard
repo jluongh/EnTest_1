@@ -326,10 +326,10 @@
             </objects>
             <point key="canvasLocation" x="-1802.4000000000001" y="719.19040479760122"/>
         </scene>
-        <!--View Controller-->
+        <!--Friend List View Controller-->
         <scene sceneID="Vc1-e7-rSu">
             <objects>
-                <viewController id="dso-Qo-4fs" sceneMemberID="viewController">
+                <viewController id="dso-Qo-4fs" customClass="FriendList_ViewController" customModule="EnTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p9d-ki-hhQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
