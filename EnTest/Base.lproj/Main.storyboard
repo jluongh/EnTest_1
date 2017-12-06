@@ -373,7 +373,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="fjk-JE-dGO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="uW3-FO-Ut7"/>
+                    <tabBarItem key="tabBarItem" id="uW3-FO-Ut7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Am-e8-LsJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
