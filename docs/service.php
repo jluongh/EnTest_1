@@ -16,7 +16,7 @@ if (!$con) {
 // echo "Successful Connection";
 
 // This SQL statement selects ALL from the table 'User'
-$sql = "SELECT username, password, firstname, lastname, email FROM User";
+$sql = "SELECT * FROM Location";
  
 // Check if there are results
 if ($result = mysqli_query($con, $sql))
