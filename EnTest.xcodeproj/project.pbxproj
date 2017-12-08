@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6F84D5321FD73BD10094D746 /* FriendList_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84D5311FD73BD10094D746 /* FriendList_ViewController.swift */; };
+		6F92D78C1FDA45BC00C46974 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F92D78B1FDA45BC00C46974 /* HomeModel.swift */; };
+		6F92D78E1FDA45FD00C46974 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F92D78D1FDA45FD00C46974 /* UserModel.swift */; };
 		6F98067A1FD0B37200E23058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9806791FD0B37200E23058 /* AppDelegate.swift */; };
 		6F98067C1FD0B37200E23058 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F98067B1FD0B37200E23058 /* FirstViewController.swift */; };
 		6F98067E1FD0B37200E23058 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F98067D1FD0B37200E23058 /* SecondViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		6F84D5311FD73BD10094D746 /* FriendList_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendList_ViewController.swift; path = EnTest/FriendList_ViewController.swift; sourceTree = SOURCE_ROOT; };
+		6F92D78B1FDA45BC00C46974 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeModel.swift; path = Database/HomeModel.swift; sourceTree = "<group>"; };
+		6F92D78D1FDA45FD00C46974 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		6F9806761FD0B37200E23058 /* EnTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9806791FD0B37200E23058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F98067B1FD0B37200E23058 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -72,12 +76,14 @@
 				6F98067B1FD0B37200E23058 /* FirstViewController.swift */,
 				6F98067D1FD0B37200E23058 /* SecondViewController.swift */,
 				6F98067F1FD0B37200E23058 /* Main.storyboard */,
-				6F9F6C611FD8B122004CBA51 /* DatabaseTest_ViewController.swift */,
 				6F9F6C5F1FD8B0D1004CBA51 /* SignIn_ViewController.swift */,
 				6FFD1DAD1FD6271F00A1526F /* CreateAccount_ViewController.swift */,
 				6F9806821FD0B37200E23058 /* Assets.xcassets */,
 				6F9806841FD0B37200E23058 /* LaunchScreen.storyboard */,
 				6F9806871FD0B37200E23058 /* Info.plist */,
+				6F9F6C611FD8B122004CBA51 /* DatabaseTest_ViewController.swift */,
+				6F92D78B1FDA45BC00C46974 /* HomeModel.swift */,
+				6F92D78D1FDA45FD00C46974 /* UserModel.swift */,
 			);
 			path = EnTest;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 				6F84D5321FD73BD10094D746 /* FriendList_ViewController.swift in Sources */,
 				6F98067E1FD0B37200E23058 /* SecondViewController.swift in Sources */,
 				6F9F6C621FD8B122004CBA51 /* DatabaseTest_ViewController.swift in Sources */,
+				6F92D78C1FDA45BC00C46974 /* HomeModel.swift in Sources */,
 				6F98067A1FD0B37200E23058 /* AppDelegate.swift in Sources */,
 				6F9F6C601FD8B0D1004CBA51 /* SignIn_ViewController.swift in Sources */,
+				6F92D78E1FDA45FD00C46974 /* UserModel.swift in Sources */,
 				6F98067C1FD0B37200E23058 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
