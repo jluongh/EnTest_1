@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<title>
+Developer Guide
+</title>
+
+
+<h1>
+EnRoute Travel App Developer Guide<br />
+</h1>
+<hr>
+<b>
+<h2>Cheat Codes</h2>
+Dania Wareh<br />
+Jennifer Luong<br />
+Alexander Berthon<br />
+Anthony Navarro<br />
+</b>
+<h2>
+Table of Contents
+</h2>
+<body style="background-color:#F2FDFE;">
+<style>
+#toc_container {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+</style>
+<div id="toc_container">
+<p class="toc_title">Contents</p>
+<ul class="toc_list"">
+	<li><a href="#Introduction">1. Introduction</a></li>
+    <li><a href="#Installation">2. Installation</a></li>
+    <li><a href="#Create_Account">3. Create Account</a></li>
+    <li><a href="#Login">4. Login</a>
+    <li><a href="#User_Settings">5. User Settings</a>
+    <li><a href="#Create_Trip">6. Create Trip</a></li>
+    <li><a href="#Itinerary">7. Itinerary</a></li>
+    <ul>
+      <li><a href="#Add_POI">7.1 Add POI</a></li>
+      <li><a href="#Delete_POI">7.2 Delete POI</a></li>
+      <li><a href="#Add_POI">7.3 Edit POI</a></li>
+  	</ul>
+	</li>
+    
+  <li><a href="#Chat">8. Chat</a></li>
+  <li><a href="#Gallery">9. Gallery</a></li>
+  <li><a href="#Map">10. Map</a></li>
+  <li><a href="#Members">11. Members</a>
+  <ul>
+      <li><a href="#---">11.1 Add Member</a></li>
+      <li><a href="#---">11.2 Remove Member</a></li>
+      <li><a href="#---">11.3 Edit Member Roles</a></li>
+  	</ul>
+	</li>
+  </ul>
+</div>
+<body>
+<h2 id="Introduction">
+1. Introduction
+</h2>
+The content of the body element is displayed in your browser.
+</body>
+
+<body>
+<h2 id="Installation">
+2. Installation
+</h2>
+The content of the body element is displayed in your browser.
+</body>
+
+<h2 id="Create_Account">
+3. Create Account
+</h2>
+The content of the body element is displayed in your browser.
+</body>
+
+<h2 id="Login">
+4. Login
+</h2>
+The content of the body element is displayed in your browser.
+</body>
+
+</html>
