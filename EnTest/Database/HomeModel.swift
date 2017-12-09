@@ -19,7 +19,7 @@ class HomeModel: NSObject {
     
     weak var delegate: HomeModelProtocol!
     
-    let urlPath = "http://localhost/xampp/user.php" //this will be changed to the path where service.php lives
+    let urlPath = "https://en-route.000webhostapp.com/user.php" //this will be changed to the path where service.php lives
     
     
     func downloadItems() {
