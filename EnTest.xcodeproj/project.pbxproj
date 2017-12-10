@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5F501C1FDCC10D0098D784 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F50191FDCC10C0098D784 /* 1.png */; };
+		6F5F501D1FDCC10D0098D784 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F501A1FDCC10C0098D784 /* 2.png */; };
+		6F5F501E1FDCC10D0098D784 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F501B1FDCC10C0098D784 /* 3.png */; };
 		6F6E3C921FDC7F6D0019FA4F /* Itinerary_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */; };
 		6F6E3C941FDC88CE0019FA4F /* ItineraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */; };
-		6F6E3C961FDCB77F0019FA4F /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C951FDCB77F0019FA4F /* GalleryViewController.swift */; };
 		6F6E3C981FDCB9720019FA4F /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */; };
 		6F84D5321FD73BD10094D746 /* FriendList_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84D5311FD73BD10094D746 /* FriendList_ViewController.swift */; };
 		6F92D78C1FDA45BC00C46974 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F92D78B1FDA45BC00C46974 /* HomeModel.swift */; };
@@ -23,14 +25,17 @@
 		6F9806861FD0B37200E23058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9806841FD0B37200E23058 /* LaunchScreen.storyboard */; };
 		6F9F6C601FD8B0D1004CBA51 /* SignIn_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F6C5F1FD8B0D1004CBA51 /* SignIn_ViewController.swift */; };
 		6F9F6C621FD8B122004CBA51 /* DatabaseTest_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F6C611FD8B122004CBA51 /* DatabaseTest_ViewController.swift */; };
+		6FDA04C11FDCBEAA0075A274 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA04C01FDCBEAA0075A274 /* GalleryViewController.swift */; };
 		6FFD1DAE1FD6271F00A1526F /* CreateAccount_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD1DAD1FD6271F00A1526F /* CreateAccount_ViewController.swift */; };
 		6FFD1DB21FD62BCC00A1526F /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD1DB11FD62BCC00A1526F /* Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F5F50191FDCC10C0098D784 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		6F5F501A1FDCC10C0098D784 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		6F5F501B1FDCC10C0098D784 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary_ViewController.swift; sourceTree = "<group>"; };
 		6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTableViewCell.swift; sourceTree = "<group>"; };
-		6F6E3C951FDCB77F0019FA4F /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		6F84D5311FD73BD10094D746 /* FriendList_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendList_ViewController.swift; path = EnTest/FriendList_ViewController.swift; sourceTree = SOURCE_ROOT; };
 		6F92D78B1FDA45BC00C46974 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeModel.swift; path = Database/HomeModel.swift; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		6F9806871FD0B37200E23058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F9F6C5F1FD8B0D1004CBA51 /* SignIn_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn_ViewController.swift; sourceTree = "<group>"; };
 		6F9F6C611FD8B122004CBA51 /* DatabaseTest_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTest_ViewController.swift; sourceTree = "<group>"; };
+		6FDA04C01FDCBEAA0075A274 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		6FFD1DAD1FD6271F00A1526F /* CreateAccount_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount_ViewController.swift; sourceTree = "<group>"; };
 		6FFD1DB11FD62BCC00A1526F /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +93,8 @@
 				6F98067B1FD0B37200E23058 /* FirstViewController.swift */,
 				6F98067D1FD0B37200E23058 /* SecondViewController.swift */,
 				6F98067F1FD0B37200E23058 /* Main.storyboard */,
+				6FDA04C01FDCBEAA0075A274 /* GalleryViewController.swift */,
 				6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */,
-				6F6E3C951FDCB77F0019FA4F /* GalleryViewController.swift */,
 				6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */,
 				6F92D78F1FDA61C600C46974 /* VegasTrip_ViewController.swift */,
 				6F9F6C5F1FD8B0D1004CBA51 /* SignIn_ViewController.swift */,
@@ -107,6 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				6FFD1DB11FD62BCC00A1526F /* Background.jpg */,
+				6F5F50191FDCC10C0098D784 /* 1.png */,
+				6F5F501A1FDCC10C0098D784 /* 2.png */,
+				6F5F501B1FDCC10C0098D784 /* 3.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,10 +179,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5F501D1FDCC10D0098D784 /* 2.png in Resources */,
 				6F9806861FD0B37200E23058 /* LaunchScreen.storyboard in Resources */,
 				6FFD1DB21FD62BCC00A1526F /* Background.jpg in Resources */,
 				6F9806831FD0B37200E23058 /* Assets.xcassets in Resources */,
 				6F9806811FD0B37200E23058 /* Main.storyboard in Resources */,
+				6F5F501E1FDCC10D0098D784 /* 3.png in Resources */,
+				6F5F501C1FDCC10D0098D784 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFD1DAE1FD6271F00A1526F /* CreateAccount_ViewController.swift in Sources */,
+				6FDA04C11FDCBEAA0075A274 /* GalleryViewController.swift in Sources */,
 				6F84D5321FD73BD10094D746 /* FriendList_ViewController.swift in Sources */,
 				6F98067E1FD0B37200E23058 /* SecondViewController.swift in Sources */,
 				6F9F6C621FD8B122004CBA51 /* DatabaseTest_ViewController.swift in Sources */,
 				6F92D78C1FDA45BC00C46974 /* HomeModel.swift in Sources */,
 				6F6E3C981FDCB9720019FA4F /* GalleryCollectionViewCell.swift in Sources */,
-				6F6E3C961FDCB77F0019FA4F /* GalleryViewController.swift in Sources */,
 				6F6E3C921FDC7F6D0019FA4F /* Itinerary_ViewController.swift in Sources */,
 				6F98067A1FD0B37200E23058 /* AppDelegate.swift in Sources */,
 				6F9F6C601FD8B0D1004CBA51 /* SignIn_ViewController.swift in Sources */,

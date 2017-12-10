@@ -684,7 +684,7 @@
         <scene sceneID="mhD-N3-4N4">
             <objects>
                 <viewController title="Gallery" id="Rdl-ho-8jT" customClass="GalleryViewController" customModule="EnTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ej6-RJ-lK1">
+                    <view key="view" contentMode="scaleToFill" id="Ej6-RJ-lK1" customClass="GalleryCollectionViewCell" customModule="EnTest" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -693,21 +693,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="G0w-3i-aSt">
-                                    <size key="itemSize" width="125" height="125"/>
+                                    <size key="itemSize" width="145" height="145"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GalleryCell" id="SQR-AT-FxL">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GalleryCell" id="SQR-AT-FxL" customClass="GalleryCollectionViewCell" customModule="EnTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="145"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="145" height="145"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UNr-1A-FO9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UNr-1A-FO9">
+                                                    <rect key="frame" x="0.0" y="0.0" width="145" height="145"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -717,6 +717,9 @@
                                             <constraint firstItem="UNr-1A-FO9" firstAttribute="leading" secondItem="SQR-AT-FxL" secondAttribute="leading" id="rDU-Il-li5"/>
                                             <constraint firstAttribute="bottom" secondItem="UNr-1A-FO9" secondAttribute="bottom" id="zx9-I0-DTR"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="GalleryImage" destination="UNr-1A-FO9" id="1ky-pm-4sM"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -728,7 +731,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="rTZ-KJ-BaJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="rf6-8a-tD9"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" id="rf6-8a-tD9"/>
+                    <connections>
+                        <outlet property="GalleryCollectionView" destination="RXK-er-xsR" id="FdA-5L-VjW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CUw-4P-wC5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
