@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6F6E3C921FDC7F6D0019FA4F /* Itinerary_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */; };
 		6F6E3C941FDC88CE0019FA4F /* ItineraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */; };
+		6F6E3C961FDCB77F0019FA4F /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C951FDCB77F0019FA4F /* GalleryViewController.swift */; };
+		6F6E3C981FDCB9720019FA4F /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */; };
 		6F84D5321FD73BD10094D746 /* FriendList_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84D5311FD73BD10094D746 /* FriendList_ViewController.swift */; };
 		6F92D78C1FDA45BC00C46974 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F92D78B1FDA45BC00C46974 /* HomeModel.swift */; };
 		6F92D78E1FDA45FD00C46974 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F92D78D1FDA45FD00C46974 /* UserModel.swift */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary_ViewController.swift; sourceTree = "<group>"; };
 		6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTableViewCell.swift; sourceTree = "<group>"; };
+		6F6E3C951FDCB77F0019FA4F /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		6F84D5311FD73BD10094D746 /* FriendList_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendList_ViewController.swift; path = EnTest/FriendList_ViewController.swift; sourceTree = SOURCE_ROOT; };
 		6F92D78B1FDA45BC00C46974 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeModel.swift; path = Database/HomeModel.swift; sourceTree = "<group>"; };
 		6F92D78D1FDA45FD00C46974 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				6F98067B1FD0B37200E23058 /* FirstViewController.swift */,
 				6F98067D1FD0B37200E23058 /* SecondViewController.swift */,
 				6F98067F1FD0B37200E23058 /* Main.storyboard */,
+				6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */,
+				6F6E3C951FDCB77F0019FA4F /* GalleryViewController.swift */,
 				6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */,
 				6F92D78F1FDA61C600C46974 /* VegasTrip_ViewController.swift */,
 				6F9F6C5F1FD8B0D1004CBA51 /* SignIn_ViewController.swift */,
@@ -183,6 +189,8 @@
 				6F98067E1FD0B37200E23058 /* SecondViewController.swift in Sources */,
 				6F9F6C621FD8B122004CBA51 /* DatabaseTest_ViewController.swift in Sources */,
 				6F92D78C1FDA45BC00C46974 /* HomeModel.swift in Sources */,
+				6F6E3C981FDCB9720019FA4F /* GalleryCollectionViewCell.swift in Sources */,
+				6F6E3C961FDCB77F0019FA4F /* GalleryViewController.swift in Sources */,
 				6F6E3C921FDC7F6D0019FA4F /* Itinerary_ViewController.swift in Sources */,
 				6F98067A1FD0B37200E23058 /* AppDelegate.swift in Sources */,
 				6F9F6C601FD8B0D1004CBA51 /* SignIn_ViewController.swift in Sources */,
