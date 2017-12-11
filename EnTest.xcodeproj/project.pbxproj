@@ -10,6 +10,10 @@
 		6F5F501C1FDCC10D0098D784 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F50191FDCC10C0098D784 /* 1.png */; };
 		6F5F501D1FDCC10D0098D784 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F501A1FDCC10C0098D784 /* 2.png */; };
 		6F5F501E1FDCC10D0098D784 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F501B1FDCC10C0098D784 /* 3.png */; };
+		6F5F50421FDE48240098D784 /* Trip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F503E1FDE48230098D784 /* Trip.png */; };
+		6F5F50431FDE48240098D784 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F503F1FDE48230098D784 /* Map.png */; };
+		6F5F50441FDE48240098D784 /* Itinerary.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F50401FDE48240098D784 /* Itinerary.png */; };
+		6F5F50451FDE48240098D784 /* Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5F50411FDE48240098D784 /* Gallery.png */; };
 		6F6E3C921FDC7F6D0019FA4F /* Itinerary_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */; };
 		6F6E3C941FDC88CE0019FA4F /* ItineraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */; };
 		6F6E3C981FDCB9720019FA4F /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */; };
@@ -34,6 +38,10 @@
 		6F5F50191FDCC10C0098D784 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		6F5F501A1FDCC10C0098D784 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		6F5F501B1FDCC10C0098D784 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6F5F503E1FDE48230098D784 /* Trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trip.png; path = "EnTest/Supporting Files/Trip.png"; sourceTree = SOURCE_ROOT; };
+		6F5F503F1FDE48230098D784 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Map.png; path = "EnTest/Supporting Files/Map.png"; sourceTree = SOURCE_ROOT; };
+		6F5F50401FDE48240098D784 /* Itinerary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Itinerary.png; path = "EnTest/Supporting Files/Itinerary.png"; sourceTree = SOURCE_ROOT; };
+		6F5F50411FDE48240098D784 /* Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gallery.png; path = "EnTest/Supporting Files/Gallery.png"; sourceTree = SOURCE_ROOT; };
 		6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary_ViewController.swift; sourceTree = "<group>"; };
 		6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTableViewCell.swift; sourceTree = "<group>"; };
 		6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -67,6 +75,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5F503D1FDE48000098D784 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6F5F50411FDE48240098D784 /* Gallery.png */,
+				6F5F50401FDE48240098D784 /* Itinerary.png */,
+				6F5F503F1FDE48230098D784 /* Map.png */,
+				6F5F503E1FDE48230098D784 /* Trip.png */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		6F98066D1FD0B37200E23058 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +131,7 @@
 		6FFD1DAF1FD6285C00A1526F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F5F503D1FDE48000098D784 /* New Group */,
 				6FFD1DB11FD62BCC00A1526F /* Background.jpg */,
 				6F5F50191FDCC10C0098D784 /* 1.png */,
 				6F5F501A1FDCC10C0098D784 /* 2.png */,
@@ -181,7 +201,11 @@
 			files = (
 				6F5F501D1FDCC10D0098D784 /* 2.png in Resources */,
 				6F9806861FD0B37200E23058 /* LaunchScreen.storyboard in Resources */,
+				6F5F50421FDE48240098D784 /* Trip.png in Resources */,
+				6F5F50451FDE48240098D784 /* Gallery.png in Resources */,
+				6F5F50431FDE48240098D784 /* Map.png in Resources */,
 				6FFD1DB21FD62BCC00A1526F /* Background.jpg in Resources */,
+				6F5F50441FDE48240098D784 /* Itinerary.png in Resources */,
 				6F9806831FD0B37200E23058 /* Assets.xcassets in Resources */,
 				6F9806811FD0B37200E23058 /* Main.storyboard in Resources */,
 				6F5F501E1FDCC10D0098D784 /* 3.png in Resources */,
