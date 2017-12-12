@@ -85,7 +85,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="8Iu-qv-Hl1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Itinerary" selectedImage="second" id="pZd-L3-s2K"/>
+                    <tabBarItem key="tabBarItem" title="Itinerary" image="Itinerary.png" selectedImage="Itinerary.png" id="pZd-L3-s2K"/>
                     <connections>
                         <outlet property="ItineraryTableView" destination="22P-WJ-e9o" id="EWc-CE-d45"/>
                     </connections>
@@ -168,7 +168,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Trip" image="Trip.png" selectedImage="Trip.png" id="acW-dT-cKf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
                         <outlet property="membersListTableView" destination="0GP-DO-xyw" id="hfb-HC-s2o"/>
@@ -343,7 +343,7 @@
             </objects>
             <point key="canvasLocation" x="2169" y="-1012"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Chat-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="EnTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -362,7 +362,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="first" selectedImage="first" id="cPa-gy-q4n"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -543,6 +543,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="Tw7-U7-aT8" kind="show" id="Wqk-e8-die"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -552,7 +555,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y09-Fo-2nb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1935" y="991"/>
+            <point key="canvasLocation" x="-2866" y="800"/>
         </scene>
         <!--Friend List View Controller-->
         <scene sceneID="Vc1-e7-rSu">
@@ -672,7 +675,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="fjk-JE-dGO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="uW3-FO-Ut7"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="Map.png" selectedImage="Map.png" id="uW3-FO-Ut7"/>
                     <navigationItem key="navigationItem" title="Map" id="6R7-T5-s9L"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
@@ -731,7 +734,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="rTZ-KJ-BaJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" id="rf6-8a-tD9"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="Gallery.png" selectedImage="Gallery.png" id="rf6-8a-tD9"/>
                     <connections>
                         <outlet property="GalleryCollectionView" destination="RXK-er-xsR" id="FdA-5L-VjW"/>
                     </connections>
@@ -777,7 +780,7 @@
             <objects>
                 <viewController id="Tw7-U7-aT8" customClass="SignIn_ViewController" customModule="EnTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8TU-VT-7n1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Di-mA-c0z">
@@ -1188,11 +1191,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Gallery.png" width="25" height="25"/>
+        <image name="Itinerary.png" width="25" height="25"/>
+        <image name="Map.png" width="25" height="25"/>
+        <image name="Trip.png" width="25" height="25"/>
         <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JvJ-pV-XW9"/>
+        <segue reference="Wqk-e8-die"/>
         <segue reference="Rki-Ap-431"/>
         <segue reference="7XW-bz-XmL"/>
         <segue reference="Thl-wd-shT"/>
