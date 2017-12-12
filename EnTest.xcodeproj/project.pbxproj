@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1CD7261FE054A50046BAA7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD71F1FE054A50046BAA7 /* 1.png */; };
+		6F1CD7271FE054A50046BAA7 /* Trip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD7201FE054A50046BAA7 /* Trip.png */; };
+		6F1CD7281FE054A50046BAA7 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD7211FE054A50046BAA7 /* Map.png */; };
+		6F1CD7291FE054A50046BAA7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD7221FE054A50046BAA7 /* 2.png */; };
+		6F1CD72A1FE054A50046BAA7 /* Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD7231FE054A50046BAA7 /* Gallery.png */; };
+		6F1CD72B1FE054A50046BAA7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD7241FE054A50046BAA7 /* 3.png */; };
+		6F1CD72C1FE054A50046BAA7 /* Itinerary.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD7251FE054A50046BAA7 /* Itinerary.png */; };
+		6F1CD72E1FE057860046BAA7 /* Map_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CD72D1FE057860046BAA7 /* Map_ViewController.swift */; };
+		6F1CD7301FE05C2E0046BAA7 /* Vegas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CD72F1FE05C2E0046BAA7 /* Vegas.jpeg */; };
 		6F6E3C921FDC7F6D0019FA4F /* Itinerary_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */; };
 		6F6E3C941FDC88CE0019FA4F /* ItineraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */; };
 		6F6E3C981FDCB9720019FA4F /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */; };
@@ -28,6 +37,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F1CD71F1FE054A50046BAA7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "EnTest/Supporting Files/1.png"; sourceTree = SOURCE_ROOT; };
+		6F1CD7201FE054A50046BAA7 /* Trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trip.png; sourceTree = "<group>"; };
+		6F1CD7211FE054A50046BAA7 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		6F1CD7221FE054A50046BAA7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		6F1CD7231FE054A50046BAA7 /* Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gallery.png; sourceTree = "<group>"; };
+		6F1CD7241FE054A50046BAA7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6F1CD7251FE054A50046BAA7 /* Itinerary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Itinerary.png; sourceTree = "<group>"; };
+		6F1CD72D1FE057860046BAA7 /* Map_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_ViewController.swift; sourceTree = "<group>"; };
+		6F1CD72F1FE05C2E0046BAA7 /* Vegas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vegas.jpeg; sourceTree = "<group>"; };
 		6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary_ViewController.swift; sourceTree = "<group>"; };
 		6F6E3C931FDC88CE0019FA4F /* ItineraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTableViewCell.swift; sourceTree = "<group>"; };
 		6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -87,6 +105,7 @@
 				6F98067B1FD0B37200E23058 /* FirstViewController.swift */,
 				6F98067D1FD0B37200E23058 /* SecondViewController.swift */,
 				6F98067F1FD0B37200E23058 /* Main.storyboard */,
+				6F1CD72D1FE057860046BAA7 /* Map_ViewController.swift */,
 				6FDA04C01FDCBEAA0075A274 /* GalleryViewController.swift */,
 				6F6E3C971FDCB9720019FA4F /* GalleryCollectionViewCell.swift */,
 				6F6E3C911FDC7F6D0019FA4F /* Itinerary_ViewController.swift */,
@@ -106,6 +125,14 @@
 		6FFD1DAF1FD6285C00A1526F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F1CD72F1FE05C2E0046BAA7 /* Vegas.jpeg */,
+				6F1CD71F1FE054A50046BAA7 /* 1.png */,
+				6F1CD7221FE054A50046BAA7 /* 2.png */,
+				6F1CD7241FE054A50046BAA7 /* 3.png */,
+				6F1CD7231FE054A50046BAA7 /* Gallery.png */,
+				6F1CD7251FE054A50046BAA7 /* Itinerary.png */,
+				6F1CD7211FE054A50046BAA7 /* Map.png */,
+				6F1CD7201FE054A50046BAA7 /* Trip.png */,
 				6FFD1DB11FD62BCC00A1526F /* Background.jpg */,
 			);
 			path = "Supporting Files";
@@ -170,10 +197,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1CD7271FE054A50046BAA7 /* Trip.png in Resources */,
 				6F9806861FD0B37200E23058 /* LaunchScreen.storyboard in Resources */,
+				6F1CD7291FE054A50046BAA7 /* 2.png in Resources */,
 				6FFD1DB21FD62BCC00A1526F /* Background.jpg in Resources */,
 				6F9806831FD0B37200E23058 /* Assets.xcassets in Resources */,
+				6F1CD72C1FE054A50046BAA7 /* Itinerary.png in Resources */,
+				6F1CD72B1FE054A50046BAA7 /* 3.png in Resources */,
 				6F9806811FD0B37200E23058 /* Main.storyboard in Resources */,
+				6F1CD7301FE05C2E0046BAA7 /* Vegas.jpeg in Resources */,
+				6F1CD7261FE054A50046BAA7 /* 1.png in Resources */,
+				6F1CD7281FE054A50046BAA7 /* Map.png in Resources */,
+				6F1CD72A1FE054A50046BAA7 /* Gallery.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +231,7 @@
 				6F9F6C601FD8B0D1004CBA51 /* SignIn_ViewController.swift in Sources */,
 				6F92D78E1FDA45FD00C46974 /* UserModel.swift in Sources */,
 				6F6E3C941FDC88CE0019FA4F /* ItineraryTableViewCell.swift in Sources */,
+				6F1CD72E1FE057860046BAA7 /* Map_ViewController.swift in Sources */,
 				6F92D7901FDA61C600C46974 /* VegasTrip_ViewController.swift in Sources */,
 				6F98067C1FD0B37200E23058 /* FirstViewController.swift in Sources */,
 			);
