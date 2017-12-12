@@ -1216,7 +1216,6 @@
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iYY-vc-1FX"/>
         <segue reference="JvJ-pV-XW9"/>
         <segue reference="Wqk-e8-die"/>
         <segue reference="Rki-Ap-431"/>
