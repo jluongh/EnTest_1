@@ -544,6 +544,8 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="createAccount:" destination="tEp-UO-F87" eventType="touchUpInside" id="5gJ-Wz-9LE"/>
+                                    <action selector="createAccountWithSender:" destination="tEp-UO-F87" eventType="touchUpInside" id="Flh-aS-XnS"/>
                                     <segue destination="Tw7-U7-aT8" kind="show" id="Wqk-e8-die"/>
                                 </connections>
                             </button>
@@ -552,6 +554,14 @@
                         <viewLayoutGuide key="safeArea" id="yvq-Xp-WsJ"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="textFieldEmail" destination="4Sd-Zb-hE2" id="5On-FP-EWQ"/>
+                        <outlet property="textFieldFirstName" destination="ugK-p1-u9M" id="vFu-Fo-yG9"/>
+                        <outlet property="textFieldLastName" destination="zZx-yA-2ZD" id="zDF-Ji-DUd"/>
+                        <outlet property="textFieldPassword" destination="9xA-OZ-Rz9" id="G2j-Sl-XXx"/>
+                        <outlet property="textFieldPhone" destination="Yeq-V9-1di" id="bMM-oj-Kw8"/>
+                        <outlet property="textFieldUsername" destination="Rsl-eb-U7Z" id="O24-Hg-owf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y09-Fo-2nb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
