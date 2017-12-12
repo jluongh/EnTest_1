@@ -9,7 +9,13 @@
 import UIKit
 
 class SignIn_ViewController: UIViewController {
-
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
+    @IBAction func Login(_ sender: Any) {
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
