@@ -4,13 +4,13 @@ require_once '../includes/DbOperation.php';
 $response = array();
  
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (!verifyRequiredParams(array('username', 'password', 'email', 'name', 'phone'))) {
+    if (!verifyRequiredParams(array('Username', 'Password', 'Email', 'Name', 'Phone'))) {
         //getting values
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-        $email = $_POST['email'];
-        $name = $_POST['name'];
-        $phone = $_POST['phone'];
+        $username = $_POST['Username'];
+        $password = $_POST['Password'];
+        $email = $_POST['Email'];
+        $name = $_POST['Name'];
+        $phone = $_POST['Phone'];
  
         //creating db operation object
         $db = new DbOperation();
