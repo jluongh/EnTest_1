@@ -35,7 +35,7 @@ class CreateAccount_ViewController: UIViewController {
         let password = textFieldPassword.text
 
         //creating the post parameter by concatenating the keys and values from text field
-        let postParameters = "firstName="+firstName!+"lastName="+lastName!+"email"+email!+"phone"+phone!+"username"+username!+"password"+password!;
+        let postParameters = "FirstName="+firstName!+"LastName="+lastName!+"Email"+email!+"Phone"+phone!+"Username"+username!+"Password"+password!;
         
         //adding the parameters to request body
         request.httpBody = postParameters.data(using:String.Encoding.utf8)
