@@ -1,22 +1,24 @@
+<?php
 //importing required script
 require_once '../includes/DbOperation.php';
  
 $response = array();
  
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (!verifyRequiredParams(array('Username', 'Password', 'Email', 'Name', 'Phone'))) {
+    if (!verifyRequiredParams(array('Username', 'Password', 'Email', 'FirstName', 'LastName','Phone'))) {
         //getting values
         $username = $_POST['Username'];
         $password = $_POST['Password'];
         $email = $_POST['Email'];
-        $name = $_POST['Name'];
+        $fname = $_POST['FirstName'];
+        $lname = $_POST['LastName']
         $phone = $_POST['Phone'];
  
         //creating db operation object
         $db = new DbOperation();
  
         //adding user to database
-        $result = $db->createUser($username, $password, $email, $name, $phone);
+        $result = $db->createUser($username, $password, $email, $lname, $fname, $phone);
  
         //making the response accordingly
         if ($result == USER_CREATED) {
