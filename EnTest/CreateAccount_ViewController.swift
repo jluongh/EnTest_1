@@ -8,11 +8,12 @@
 
 import UIKit
 
-import Alamofire
+
+//import Alamofire
 import UIKit
 
 class CreateAccount_ViewController: UIViewController {
-    
+
     let URL_USER_REGISTER = URL(string:"https://en-route.000webhostapp.com/register.php")
     
     @IBOutlet weak var textFieldFirstName: UITextField!
@@ -22,9 +23,10 @@ class CreateAccount_ViewController: UIViewController {
     @IBOutlet weak var textFieldUsername: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
 
-    @IBAction func createAccount(sender: UIButton) {
+   // @IBAction func createAccount(sender: UIButton) {
         
         //creating NSMutableURLRequest
+        /*
         let parameters: Parameters=[
             "Username":textFieldUsername.text!,
             "Password":textFieldPassword!,
@@ -33,7 +35,8 @@ class CreateAccount_ViewController: UIViewController {
             "Email":textFieldEmail!,
             "Phone":textFieldPhone!
             ]
-         
+         */
+        /*
          //Sending http post request
          Alamofire.request(URL_USER_REGISTER, method: .post, parameters: parameters).responseJSON
          {
@@ -51,7 +54,9 @@ class CreateAccount_ViewController: UIViewController {
                     self.labelMessage.text = jsonData.value(forKey: "message") as! String?
             }
          }
-    }
+         */
+  //  }
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()

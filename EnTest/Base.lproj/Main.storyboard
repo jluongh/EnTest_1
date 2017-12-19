@@ -530,23 +530,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yay-LK-6Ku">
-                                <rect key="frame" x="0.0" y="574" width="375" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnM-tE-Weu">
+                                <rect key="frame" x="16" y="573" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Create Account">
-                                            <attributes>
-                                                <font key="NSFont" size="14" name="Avenir-Light"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <state key="normal" title="Create Account"/>
                                 <connections>
-                                    <action selector="createAccount:" destination="tEp-UO-F87" eventType="touchUpInside" id="5gJ-Wz-9LE"/>
-                                    <action selector="createAccountWithSender:" destination="tEp-UO-F87" eventType="touchUpInside" id="Flh-aS-XnS"/>
-                                    <segue destination="Tw7-U7-aT8" kind="show" id="Wqk-e8-die"/>
+                                    <segue destination="Tw7-U7-aT8" kind="show" id="t5h-nP-TQD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -565,7 +554,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y09-Fo-2nb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2866" y="800"/>
+            <point key="canvasLocation" x="-2866.4000000000001" y="799.2503748125938"/>
         </scene>
         <!--Friend List View Controller-->
         <scene sceneID="Vc1-e7-rSu">
@@ -1273,9 +1262,8 @@
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iYY-vc-1FX"/>
         <segue reference="JvJ-pV-XW9"/>
-        <segue reference="Wqk-e8-die"/>
+        <segue reference="t5h-nP-TQD"/>
         <segue reference="Rki-Ap-431"/>
         <segue reference="O3Y-ZI-yNn"/>
         <segue reference="xnE-8y-K8X"/>
